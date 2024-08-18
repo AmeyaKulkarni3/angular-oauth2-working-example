@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthConfig, NullValidationHandler, OAuthService } from 'angular-oauth2-oidc';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'account-manager-frontend-new';
+
+  
 }
